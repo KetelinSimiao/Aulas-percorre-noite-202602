@@ -1,0 +1,19 @@
+
+/*  Para invocar um ai utilizamos # e para invocar uam classe utilizamos . e nome da Classe */
+.quadrados{ 
+width: 200px;
+height: 200px;
+background-color: aquamarine;
+border: 5px  pink solid; 
+
+}
+#foto{
+width:200px ;
+height: 200px ;
+border: 5px solid pink;
+}
+
+#Container{
+/*  ao inves de utilizarmos todos os comandos em pedding podemos utilizar a versão mais abreviada, e colocara o pedding na seguinte ordem: Top, direito, baixo e esquerda */
+    padding: 20px 300px 50px 40px;
+}

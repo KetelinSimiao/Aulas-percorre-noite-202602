@@ -1,0 +1,62 @@
+p {
+font-size: 200px;
+
+
+}
+
+#quadrado {
+height: 200px;
+width: 200px ;
+background-color: rgb(128, 37, 214);
+}
+#container{
+   background-color: rgb(255, 0, 230);
+  
+  /*  O Css  enxerga os elementos dos html ocmo caixa e dependendo do elemento, ele pode coucpar a tela inteira, ou apenas a área que utiliza.
+  Como o CSS serve para manipular visualmete os elementos do HTML, podemos forçar uma caixa rigid a se tornar flexível para organizar os conteúdos que estão nela. */
+   display: flex;
+   justify-content: spa;
+ align-items: center;
+}
+
+
+ img{  
+    width: 300px;
+    height: 300px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

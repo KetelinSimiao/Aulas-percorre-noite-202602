@@ -1,0 +1,26 @@
+.quadrados {
+width: 200px;
+height: 200 px;
+background-color: blueviolet;
+border: 2px rebeccapurple solid   ;
+}
+/*  FlexBox, permite organizar os itens interiros horizontalmente e verticalmente */
+.container {
+border: 5px rgb(67, 43, 202) solid;
+display: flex;
+/*  justify para organizar horizontalmente */
+justify-content: space-between;
+/*  align organizar verticalmnete */
+align-items: end;
+height: 400px;
+
+
+}
+
+.tela{
+display: flex;
+justify-content: center;
+align-items: center ;
+
+height: 90vh;
+}

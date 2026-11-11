@@ -1,0 +1,45 @@
+ol {
+    background-color: bisque;
+
+
+
+}
+
+
+li {
+    background: deeppink;
+
+}
+
+
+li:hover {
+    border: 0.3px solid aqua;
+    transition: 3s;
+    display: none;
+}
+
+img:active {
+    width: 100px;
+    transition: 1s;
+}
+
+.revelecao{
+display: flex;
+background: blueviolet ;
+color: blueviolet;
+
+
+}
+
+.revelacao p:hover {
+    color: aliceblue;
+    font-size: 200px;
+
+}
+
+/*  Caso seja necessário selecionar multiplos itens é possivel utilizar odd e even no lugar dos números para selecionar pares e ímpares */
+li:nth-child(odd) 
+{
+
+    background: yellow;
+}

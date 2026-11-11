@@ -1,0 +1,15 @@
+#container {
+background-color: rgb(122, 194, 243);
+border-radius: 25px;
+
+}
+
+.quadrados{
+    
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border: rgb(55, 8, 131) 2px dashed;
+    border-radius: 25%;
+    
+    }

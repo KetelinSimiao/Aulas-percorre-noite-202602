@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+.Musica1{
+  
+background-image: url("https://img.magnific.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-10066.jpg?semt=ais_hybrid&w=740&q=80");
+border-radius: 50px;
+border: rgba(221, 160, 221, 0.39) 5px solid;
+display: flex;
+justify-content: space-around;
+align-items: center;
+ /*  Gap é uma propriedade do displayflex, que separa os elementos no nosso caso, estamos separando a imagem da caixa qie cóntem os textos
+  o  gap é util porque evita que precisemos colocar margins e paddings em vários elementos, simplificando a organização do código*/
+gap: 10px;
+
+width: 600px;
+color: aliceblue;
+font-family: "Montserrat", sans-serif;
+/*  a propriedade box-shadow cria uma sombra atras do elemento, nesse caso  atras do  card de música, para criarmos essa sombra é necessário o descolocamento horizontal
+em pixel ou outra unidade de medida, em seguida passamos o deslocamento vertical e depois a cor da sombra e a tranparencia  */
+box-shadow: 60px +16px rgba(0, 0, 0, 0.267);
+
+
+}
+ .musica-img1{
+width: 200px;
+height: 200%;
+border-radius: 25%;
+
+
+ }
+
+ .musica-right1 {
+    /*  Primeiro  deixamos a div flexivel para poder cebtralizar, em seguida colocamos a direção */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .musica-btn {
+    border-radius: 20px;
+    width: 150%;
+
+
+ }
+
+ .Musica2 {
+    background-image: url("https://img.magnific.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-10066.jpg?semt=ais_hybrid&w=740&q=80");
+border-radius: 50px;
+border: rgba(221, 160, 221, 0.39) 5px solid;
+display: flex;
+justify-content: space-around;
+align-items: center;
+ /*  Gap é uma propriedade do displayflex, que separa os elementos no nosso caso, estamos separando a imagem da caixa qie cóntem os textos
+  o  gap é util porque evita que precisemos colocar margins e paddings em vários elementos, simplificando a organização do código*/
+gap: 10px;
+
+width: 600px;
+color: aliceblue;
+font-family: "Montserrat", sans-serif;
+/*  a propriedade box-shadow cria uma sombra atras do elemento, nesse caso  atras do  card de música, para criarmos essa sombra é necessário o descolocamento horizontal
+em pixel ou outra unidade de medida, em seguida passamos o deslocamento vertical e depois a cor da sombra e a tranparencia  */
+box-shadow: 60px +16px rgba(0, 0, 0, 0.267);
+
+
+.Musica-right2{
+
+}
+
+}
+
+}
+
+
+
+ .Musica3 {
+    background-image: url("https://img.magnific.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-10066.jpg?semt=ais_hybrid&w=740&q=80");
+    border-radius: 50px;
+    border: rgba(221, 160, 221, 0.39) 5px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     /*  Gap é uma propriedade do displayflex, que separa os elementos no nosso caso, estamos separando a imagem da caixa qie cóntem os textos
+      o  gap é util porque evita que precisemos colocar margins e paddings em vários elementos, simplificando a organização do código*/
+    gap: 10px;
+    
+    width: 600px;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    /*  a propriedade box-shadow cria uma sombra atras do elemento, nesse caso  atras do  card de música, para criarmos essa sombra é necessário o descolocamento horizontal
+    em pixel ou outra unidade de medida, em seguida passamos o deslocamento vertical e depois a cor da sombra e a tranparencia  */
+    box-shadow: 60px +16px rgba(0, 0, 0, 0.267);
+    
+
+ }
