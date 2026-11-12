@@ -1,0 +1,159 @@
+*
+
+
+.slide {
+    display: none;
+}
+
+.slide.ativo {
+    display: block;
+}
+
+
+sobre {
+    padding: 50px 0;
+    background-color: #FFF7F9;
+}
+
+
+.sobre .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.sobre h2 {
+    color: #A85F79;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.sobre p {
+    color: #755866;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.cards-sobre {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.card-historia{
+    width: 50%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+.card-producao {
+    width: 50%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.card-historia img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;}
+.card-producao video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+
+
+    .card-historia,
+    .card-producao {
+        width: 100%;
+    }
+
+
+
+
+
+
+.colecoes {
+    padding: 60px 0;
+    background-color: #FFF7F9;
+}
+
+.colecoes .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.colecoes h2 {
+    text-align: center;
+    color: #A85F79;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.colecoes > .container > p {
+    text-align: center;
+    color: #755866;
+    margin-bottom: 35px;
+}
+
+
+.cards-colecoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.card-colecao {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card-colecao img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.card-colecao h3 {
+    color: #A85F79;
+    font-size: 19px;
+    margin: 15px 0 8px;
+}
+
+
+.card-colecao p {
+    color: #755866;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+
+.card-colecao a {
+    display: inline-block;
+    background-color: #A85F79;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+}
